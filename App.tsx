@@ -77,7 +77,7 @@ function App(): JSX.Element {
 
         <View>
           <TouchableOpacity onPress={onPressFunction} style={{backgroundColor:'green'}}>
-            <Text style={{textAlign:'center'}}>Continue </Text>
+            <Text style={{textAlign:'center'}}>Continue!</Text>
           </TouchableOpacity>
         </View>
           <Imagepick/>
