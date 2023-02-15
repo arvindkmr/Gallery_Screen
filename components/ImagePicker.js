@@ -53,19 +53,22 @@ const Imagepick = () => {
       } */}
         <TouchableOpacity
           onPress={() => openGallery()}
-          style={{
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}>
-          <Image
+         >
+            {
+              !galleryPhoto ? ( <View  style={{
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}><Image
             source={require('./image/upload.png')}
             style={{width: 42, height: 42, marginBottom: 20}}
           />
           <Text style={{color: 'black'}}>Upload Pan card</Text>
+          </View>) : null
+            }
         </TouchableOpacity>
         {galleryPhoto ? (
           <Image
-            style={{width: 100, height: 100}}
+            style={{width: 150, height: 150}}
             source={{uri: galleryPhoto}}
           />
         ) : null}
