@@ -14,7 +14,7 @@ import Contiuebutton from './Button';
 
 const Footer = () => {
   return (
-    <ScrollView style={{marginTop: 10}}>
+    <ScrollView style={{marginTop: 10,marginBottom:90,}}>
       <View
         style={{
           display: 'flex',

@@ -123,6 +123,7 @@ const styles = StyleSheet.create({
     borderRadius: 7,
     borderColor: '#EBEBEB',
     elevation: 3,
+    borderWidth:2,
     shadowRadius: 3,
     shadowOpacity: 1.0,
     // shadowColor: '#0000000A',

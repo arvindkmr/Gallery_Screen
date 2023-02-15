@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     elevation: 3,
     shadowRadius: 3,
     shadowOpacity: 1.0,
+    borderWidth:2,
   },
 });
 export default Cardtwo;
